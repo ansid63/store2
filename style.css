@@ -194,12 +194,68 @@ body{
 }
 
 .good {
-    width: 270px;
-    height: 270px;
+    position: relative;
 }
 
-.good:hover {
+.good:hover .product-text {
+    display: block;
+}
+
+.product-text {
     outline: 1px solid #6c6c6c;
+    background-color:  #ffffff;
+    opacity: 0.9;
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.circle-order{
+    border-radius: 50%;
+    background-color:  #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 48px;
+    height: 48px;
+    outline: none;
+    color:  #212121;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 62px;
+    margin-bottom: 19px;
+}
+
+.product-text h4 {
+    width: 145px;
+    height: 17px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    letter-spacing: -1px;
+    padding-left: 31px;
+}
+
+
+.product-text p {
+    width: 206px;
+    height: 33px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+    margin-top: 0;
+    letter-spacing: -1px;
 }
 
 .exclusive {
