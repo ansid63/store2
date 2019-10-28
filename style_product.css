@@ -142,9 +142,9 @@ body{
 
 .explore-product-text-h1 {
     color: #212121;
-    font-family: Gotham;
+
     font-size: 60px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 48.02px;
     margin-top: 36px;
     margin-left: 196px;
@@ -178,6 +178,7 @@ body{
     letter-spacing: 0.4px;
     margin-left: 49px;
     padding-top: 61px;
+    letter-spacing: 0.4px;
 }
 
 /*PRODUCT PAGINATOR*/
