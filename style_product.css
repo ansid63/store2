@@ -158,7 +158,7 @@ body{
     width: 510px;
     height: 71px;
     text-align: center;
-    line-height: 45px;
+    line-height: 71px;
     display: inline-block;
     text-decoration: none;
     letter-spacing: 4.4px;
@@ -206,11 +206,11 @@ body{
 }
 
 .releted-product-header {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .releted-product-h2 {
-    float: left;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 71px;
@@ -218,7 +218,7 @@ body{
 
 .explore-all-2 {
     display: block;
-    float: right;
+    text-align: center;
     font-size: 18px;
     font-weight: bold;
     color: #6C6C6C;
