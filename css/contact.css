@@ -202,7 +202,7 @@ body{
     background-color:  #ffffff;
     width: 368px;
     height: 46px;
-    background-image: url(img/send-icon.png);
+    background-image: url(../img/send-icon.png);
     background-repeat: no-repeat;
     background-position: 340px center;
     border-spacing: 5px;

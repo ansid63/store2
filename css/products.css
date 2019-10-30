@@ -91,6 +91,8 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1.8px;
+    border-bottom: 1px solid #212121;
+    display: block;
 }
 
 .second-menu-link-active {
@@ -101,16 +103,17 @@ body{
     text-decoration: none;
     letter-spacing: 1.8px;
     border-bottom: 3px solid #212121;
+    display: block;
 }
 
 .second-menu-link:hover {
     color: #212121;
+    border-bottom: 3px solid #212121;
 }
 
 .second-menu-2 {
     width: 647px;
     height: 13px;
-
 }
 
 
@@ -144,7 +147,7 @@ body{
 }
 
 .exclusive-item-left {
-    background-image: url(img/promo-img1.jpg);
+    background-image: url(../img/promo-img1.jpg);
     width: 683px;
 }
 
@@ -179,7 +182,7 @@ body{
 }
 
 .exclusive-item-right {
-    background-image: url(img/promo-img.jpg);
+    background-image: url(../img/promo-img.jpg);
     width: 683px;
 }
 
@@ -273,7 +276,7 @@ body{
     background-color:  #ffffff;
     width: 368px;
     height: 46px;
-    background-image: url(img/send-icon.png);
+    background-image: url(../img/send-icon.png);
     background-repeat: no-repeat;
     background-position: 340px center;
     border-spacing: 5px;
